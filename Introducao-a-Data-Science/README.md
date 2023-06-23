@@ -1,4 +1,4 @@
-![Thumbnail GitHub](Introducao-a-Data-Science/Data%20Science-Data%20Science.png)
+![Thumbnail GitHub](Data%20Science-Data%20Science.png)
 # Analisando os dados do [MovieLens](https://movielens.org/) e [The Movie Database](https://www.themoviedb.org/)
 Nesse projeto de introdução, foram realizadas algumas análises simples na base de dados de filmes, séries, TV show, etc. 
 O objetivo do projeto foi aprender alguns tópicos como:
