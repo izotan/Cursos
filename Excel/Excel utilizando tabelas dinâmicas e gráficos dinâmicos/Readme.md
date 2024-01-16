@@ -1,4 +1,4 @@
-![Thumbnail GitHub](Data%20Science-Data%20Science.png)
+![Thumbnail GitHub](Excel-utilizando-tabelas-dinamimcas-e-graficos.png)
 # Trabalhando no Microsoft Excel com diversas fontes de dados.
 Nesse projeto de introdução, foram construídas algumas visualizações de dados na planilha utilizando Tabelas Dinâmicas e Gráficos Dinâmicos. 
 O objetivo do projeto foi aprender alguns tópicos como:
