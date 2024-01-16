@@ -22,7 +22,7 @@ O objetivo do projeto foi aprender alguns tópicos como:
 
 ## 📁 Acesso ao projeto
 
--> ['Meteora+Ecommerce+FINAL+AULA+5+RESOLVIDO.xlsx']([https://github.com/izotan/Cursos/blob/main/Introducao-a-Data-Science/Introdu%C3%A7%C3%A3o%20a%20Data%20Science.ipynb](https://github.com/izotan/Cursos/tree/main/Excel/Excel%20utilizando%20tabelas%20din%C3%A2micas%20e%20gr%C3%A1ficos%20din%C3%A2micos))
+['Meteora+Ecommerce+FINAL+AULA+5+RESOLVIDO.xlsx']([https://github.com/izotan/Cursos/blob/main/Introducao-a-Data-Science/Introdu%C3%A7%C3%A3o%20a%20Data%20Science.ipynb](https://github.com/izotan/Cursos/tree/main/Excel/Excel%20utilizando%20tabelas%20din%C3%A2micas%20e%20gr%C3%A1ficos%20din%C3%A2micos))
 
 ## 📚 Mais informações do curso
 
