@@ -20,7 +20,7 @@ O objetivo do projeto foi aprender alguns tópicos como:
 
 ## 📁 Acesso ao projeto
 
-Acesse o projeto e código fonte abrindo o notebook com nome ['Pandas-conhecendo-biblioteca.ipynb'](https://github.com/izotan/Cursos/blob/main/pandas-conhecendo-biblioteca/projeto_imobiliaria.ipynb)
+Acesse o projeto e código fonte abrindo o notebook com nome ['projeto_imobiliaria.ipynb'](https://github.com/izotan/Cursos/blob/main/pandas-conhecendo-biblioteca/projeto_imobiliaria.ipynb)
 
 ## 📚 Mais informações do curso
 
