@@ -1,0 +1,814 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Film</th>
+      <th>Release year</th>
+      <th>Director</th>
+      <th>Production companies</th>
+      <th>Rank</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Citizen Kane</td>
+      <td>1941</td>
+      <td>Orson Welles</td>
+      <td>RKO Radio Pictures</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Casablanca</td>
+      <td>1942</td>
+      <td>Michael Curtiz</td>
+      <td>Warner Bros. Pictures</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>The Godfather</td>
+      <td>1972</td>
+      <td>Francis Ford Coppola</td>
+      <td>Paramount Pictures, Alfran Productions</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Gone with the Wind</td>
+      <td>1939</td>
+      <td>Victor Fleming</td>
+      <td>Selznick International Pictures</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Lawrence of Arabia</td>
+      <td>1962</td>
+      <td>David Lean</td>
+      <td>Horizon Pictures</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>The Wizard of Oz</td>
+      <td>1939</td>
+      <td>Victor Fleming</td>
+      <td>Metro-Goldwyn-Mayer</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>The Graduate</td>
+      <td>1967</td>
+      <td>Mike Nichols</td>
+      <td>Lawrence Turman</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>On the Waterfront</td>
+      <td>1954</td>
+      <td>Elia Kazan</td>
+      <td>Horizon-American Pictures</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Schindler's List</td>
+      <td>1993</td>
+      <td>Steven Spielberg</td>
+      <td>Amblin Entertainment</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Singin' in the Rain</td>
+      <td>1952</td>
+      <td>Gene Kelly, Stanley Donen</td>
+      <td>Metro-Goldwyn-Mayer</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>It's a Wonderful Life</td>
+      <td>1946</td>
+      <td>Frank Capra</td>
+      <td>Liberty Pictures</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Sunset Boulevard</td>
+      <td>1950</td>
+      <td>Billy Wilder</td>
+      <td>Paramount Pictures</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>The Bridge on the River Kwai</td>
+      <td>1957</td>
+      <td>David Lean</td>
+      <td>Horizon-American Pictures</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Some Like It Hot</td>
+      <td>1959</td>
+      <td>Billy Wilder</td>
+      <td>Ashton Productions, The Mirisch Company</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Star Wars</td>
+      <td>1977</td>
+      <td>George Lucas</td>
+      <td>Lucasfilm</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>All About Eve</td>
+      <td>1950</td>
+      <td>Joseph L. Mankiewicz</td>
+      <td>20th Century-Fox</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>The African Queen</td>
+      <td>1951</td>
+      <td>John Huston</td>
+      <td>Horizon Enterprises, Romulus Films</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Psycho</td>
+      <td>1960</td>
+      <td>Alfred Hitchcock</td>
+      <td>Shamley Productions</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Chinatown</td>
+      <td>1974</td>
+      <td>Roman Polanski</td>
+      <td>Long Road Productions</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>One Flew Over the Cuckoo's Nest</td>
+      <td>1975</td>
+      <td>Miloš Forman</td>
+      <td>Fantasy Films</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>The Grapes of Wrath</td>
+      <td>1940</td>
+      <td>John Ford</td>
+      <td>20th Century-Fox</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2001: A Space Odyssey</td>
+      <td>1968</td>
+      <td>Stanley Kubrick</td>
+      <td>Metro-Goldwyn-Mayer</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>The Maltese Falcon</td>
+      <td>1941</td>
+      <td>John Huston</td>
+      <td>Warner Bros. Pictures</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Raging Bull</td>
+      <td>1980</td>
+      <td>Martin Scorsese</td>
+      <td>Chartoff-Winkler Productions</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>E.T. the Extra-Terrestrial</td>
+      <td>1982</td>
+      <td>Steven Spielberg</td>
+      <td>Universal Pictures, Amblin Entertainment</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Dr. Strangelove</td>
+      <td>1964</td>
+      <td>Stanley Kubrick</td>
+      <td>Hawk Films, Polaris Productions</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Bonnie and Clyde</td>
+      <td>1967</td>
+      <td>Arthur Penn</td>
+      <td>Tatira-Hiller Productions</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Apocalypse Now</td>
+      <td>1979</td>
+      <td>Francis Ford Coppola</td>
+      <td>Omni Zoetrope</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Mr. Smith Goes to Washington</td>
+      <td>1939</td>
+      <td>Frank Capra</td>
+      <td>Columbia Pictures</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>The Treasure of the Sierra Madre</td>
+      <td>1948</td>
+      <td>John Huston</td>
+      <td>Warner Bros. Pictures</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>Annie Hall</td>
+      <td>1977</td>
+      <td>Woody Allen</td>
+      <td>United Artists</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>The Godfather Part II</td>
+      <td>1974</td>
+      <td>Francis Ford Coppola</td>
+      <td>The Coppola Company</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>High Noon</td>
+      <td>1952</td>
+      <td>Fred Zinnemann</td>
+      <td>Stanley Kramer Productions</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>To Kill a Mockingbird</td>
+      <td>1962</td>
+      <td>Robert Mulligan</td>
+      <td>Pakula-Mulligan Productions, Brentwood Productions</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>It Happened One Night</td>
+      <td>1934</td>
+      <td>Frank Capra</td>
+      <td>Columbia Pictures</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>Midnight Cowboy</td>
+      <td>1969</td>
+      <td>John Schlesinger</td>
+      <td>Jerome Hellman Productions</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>The Best Years of Our Lives</td>
+      <td>1946</td>
+      <td>William Wyler</td>
+      <td>Samuel Goldwyn Productions</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>Double Indemnity</td>
+      <td>1944</td>
+      <td>Billy Wilder</td>
+      <td>Paramount Pictures</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>Doctor Zhivago</td>
+      <td>1965</td>
+      <td>David Lean</td>
+      <td>Carlo Ponti Productions</td>
+      <td>39</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>North by Northwest</td>
+      <td>1959</td>
+      <td>Alfred Hitchcock</td>
+      <td>Metro-Goldwyn-Mayer</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>West Side Story</td>
+      <td>1961</td>
+      <td>Robert Wise, Jerome Robbins</td>
+      <td>Beta Productions, The Mirisch Company, Seven Arts Productions, B &amp; P Enterprises</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>Rear Window</td>
+      <td>1954</td>
+      <td>Alfred Hitchcock</td>
+      <td>Paramount Pictures, Patron</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>King Kong</td>
+      <td>1933</td>
+      <td>Merian C. Cooper</td>
+      <td>RKO Radio Pictures</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>The Birth of a Nation</td>
+      <td>1915</td>
+      <td>D. W. Griffith</td>
+      <td>David W. Griffith Corp.</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>A Streetcar Named Desire</td>
+      <td>1951</td>
+      <td>Elia Kazan</td>
+      <td>Warner Bros. Pictures, Charles K. Feldman Productions</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>A Clockwork Orange</td>
+      <td>1971</td>
+      <td>Stanley Kubrick</td>
+      <td>Polaris Productions, Hawk Films</td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>Taxi Driver</td>
+      <td>1976</td>
+      <td>Martin Scorsese</td>
+      <td>B &amp; P Enterprises, Italo-Judeo</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>Jaws</td>
+      <td>1975</td>
+      <td>Steven Spielberg</td>
+      <td>Universal Pictures, Zanuck/Brown Company</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>Snow White and the Seven Dwarfs</td>
+      <td>1937</td>
+      <td>David Hand, et al.</td>
+      <td>Walt Disney Productions</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>Butch Cassidy and the Sundance Kid</td>
+      <td>1969</td>
+      <td>George Roy Hill</td>
+      <td>Campanile Productions</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>The Philadelphia Story</td>
+      <td>1940</td>
+      <td>George Cukor</td>
+      <td>Metro-Goldwyn-Mayer</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>From Here to Eternity</td>
+      <td>1953</td>
+      <td>Fred Zinnemann</td>
+      <td>Columbia Pictures</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>Amadeus</td>
+      <td>1984</td>
+      <td>Miloš Forman</td>
+      <td>The Saul Zaentz Company</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>All Quiet on the Western Front</td>
+      <td>1930</td>
+      <td>Lewis Milestone</td>
+      <td>Universal Pictures</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>The Sound of Music</td>
+      <td>1965</td>
+      <td>Robert Wise</td>
+      <td>Argyle Enterprises, 20th Century-Fox</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>M*A*S*H</td>
+      <td>1970</td>
+      <td>Robert Altman</td>
+      <td>Aspen Productions</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>The Third Man</td>
+      <td>1949</td>
+      <td>Carol Reed</td>
+      <td>London Film Productions</td>
+      <td>57</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>Fantasia</td>
+      <td>1940</td>
+      <td>Walt Disney</td>
+      <td>Walt Disney Productions</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>Rebel Without a Cause</td>
+      <td>1955</td>
+      <td>Nicholas Ray</td>
+      <td>Warner Bros. Pictures</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>Raiders of the Lost Ark</td>
+      <td>1981</td>
+      <td>Steven Spielberg</td>
+      <td>Lucasfilm</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>Vertigo</td>
+      <td>1958</td>
+      <td>Alfred Hitchcock</td>
+      <td>Alfred J. Hitchcock Productions, Paramount Pictures</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>Tootsie</td>
+      <td>1982</td>
+      <td>Sydney Pollack</td>
+      <td>Mirage Enterprises, Punch Productions, Columbia Pictures, Delphi Productions</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>Stagecoach</td>
+      <td>1939</td>
+      <td>John Ford</td>
+      <td>Walter Wanger Productions</td>
+      <td>63</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>Close Encounters of the Third Kind</td>
+      <td>1977</td>
+      <td>Steven Spielberg</td>
+      <td>Columbia Pictures, EMI</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>The Silence of the Lambs</td>
+      <td>1991</td>
+      <td>Jonathan Demme</td>
+      <td>Strong Heart Productions</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>Network</td>
+      <td>1976</td>
+      <td>Sidney Lumet</td>
+      <td>Metro-Goldwyn-Mayer, United Artists</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>The Manchurian Candidate</td>
+      <td>1962</td>
+      <td>John Frankenheimer</td>
+      <td>M. C. Productions</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>An American in Paris</td>
+      <td>1951</td>
+      <td>Vincente Minnelli</td>
+      <td>Metro-Goldwyn-Mayer</td>
+      <td>68</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>Shane</td>
+      <td>1953</td>
+      <td>George Stevens</td>
+      <td>Paramount Pictures</td>
+      <td>69</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>The French Connection</td>
+      <td>1971</td>
+      <td>William Friedkin</td>
+      <td>D'Antoni Productions</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>Forrest Gump</td>
+      <td>1994</td>
+      <td>Robert Zemeckis</td>
+      <td>The Tisch Company</td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>Ben-Hur</td>
+      <td>1959</td>
+      <td>William Wyler</td>
+      <td>Metro-Goldwyn-Mayer</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>Wuthering Heights</td>
+      <td>1939</td>
+      <td>William Wyler</td>
+      <td>Samuel Goldwyn Productions</td>
+      <td>73</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>The Gold Rush</td>
+      <td>1925</td>
+      <td>Charlie Chaplin</td>
+      <td>Charles Chaplin Productions</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>Dances with Wolves</td>
+      <td>1990</td>
+      <td>Kevin Costner</td>
+      <td>TIG Productions, Majestic Films International</td>
+      <td>75</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>City Lights</td>
+      <td>1931</td>
+      <td>Charlie Chaplin</td>
+      <td>Charles Chaplin Productions</td>
+      <td>76</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>American Graffiti</td>
+      <td>1973</td>
+      <td>George Lucas</td>
+      <td>Coppola Co., Lucasfilm</td>
+      <td>77</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>Rocky</td>
+      <td>1976</td>
+      <td>John G. Avildsen</td>
+      <td>Chartoff-Winkler Productions</td>
+      <td>78</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>The Deer Hunter</td>
+      <td>1978</td>
+      <td>Michael Cimino</td>
+      <td>EMI</td>
+      <td>79</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>The Wild Bunch</td>
+      <td>1969</td>
+      <td>Sam Peckinpah</td>
+      <td>Phil Feldman Productions, Warner Bros.-Seven Arts</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>Modern Times</td>
+      <td>1936</td>
+      <td>Charlie Chaplin</td>
+      <td>Charles Chaplin Film Corp.</td>
+      <td>81</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>Giant</td>
+      <td>1956</td>
+      <td>George Stevens</td>
+      <td>Warner Bros. Pictures</td>
+      <td>82</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>Platoon</td>
+      <td>1986</td>
+      <td>Oliver Stone</td>
+      <td>Hemdale Film Corporation</td>
+      <td>83</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>Fargo</td>
+      <td>1996</td>
+      <td>Coen brothers</td>
+      <td>Working Title Films</td>
+      <td>84</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>Duck Soup</td>
+      <td>1933</td>
+      <td>Leo McCarey</td>
+      <td>Paramount Productions</td>
+      <td>85</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>Mutiny on the Bounty</td>
+      <td>1935</td>
+      <td>Frank Lloyd</td>
+      <td>Metro-Goldwyn-Mayer</td>
+      <td>86</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>Frankenstein</td>
+      <td>1931</td>
+      <td>James Whale</td>
+      <td>Universal Pictures</td>
+      <td>87</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>Easy Rider</td>
+      <td>1969</td>
+      <td>Dennis Hopper</td>
+      <td>The Pando Company, Raybert Productions</td>
+      <td>88</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>Patton</td>
+      <td>1970</td>
+      <td>Franklin J. Schaffner</td>
+      <td>20th Century-Fox</td>
+      <td>89</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>The Jazz Singer</td>
+      <td>1927</td>
+      <td>Alan Crosland</td>
+      <td>Warner Bros. Pictures, The Vitaphone Corp.</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>My Fair Lady</td>
+      <td>1964</td>
+      <td>George Cukor</td>
+      <td>Warner Bros. Pictures</td>
+      <td>91</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>A Place in the Sun</td>
+      <td>1951</td>
+      <td>George Stevens</td>
+      <td>Paramount Pictures</td>
+      <td>92</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>The Apartment</td>
+      <td>1960</td>
+      <td>Billy Wilder</td>
+      <td>The Mirisch Company</td>
+      <td>93</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>Goodfellas</td>
+      <td>1990</td>
+      <td>Martin Scorsese</td>
+      <td>Warner Bros. Pictures, Irwin Winkler Productions</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>Pulp Fiction</td>
+      <td>1994</td>
+      <td>Quentin Tarantino</td>
+      <td>A Band Apart, Jersey Films</td>
+      <td>95</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>The Searchers</td>
+      <td>1956</td>
+      <td>John Ford</td>
+      <td>C. V. Whitney Pictures</td>
+      <td>96</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>Bringing Up Baby</td>
+      <td>1938</td>
+      <td>Howard Hawks</td>
+      <td>RKO Radio Pictures</td>
+      <td>97</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>Unforgiven</td>
+      <td>1992</td>
+      <td>Clint Eastwood</td>
+      <td>The Malpaso Company</td>
+      <td>98</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>Guess Who's Coming to Dinner</td>
+      <td>1967</td>
+      <td>Stanley Kramer</td>
+      <td>Columbia Pictures</td>
+      <td>99</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>Yankee Doodle Dandy</td>
+      <td>1942</td>
+      <td>Michael Curtiz</td>
+      <td>Warner Bros. Pictures</td>
+      <td>100</td>
+    </tr>
+  </tbody>
+</table>
