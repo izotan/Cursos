@@ -1,0 +1,18 @@
+{
+  "nome": "João",
+  "idade": 28,
+  "enderecos": [
+    {
+      "tipo": "casa",
+      "rua": "Rua A",
+      "numero": 123,
+      "cidade": "São Paulo"
+    },
+    {
+      "tipo": "trabalho",
+      "rua": "Rua B",
+      "numero": 456,
+      "cidade": "Rio de Janeiro"
+    }
+  ]
+}
