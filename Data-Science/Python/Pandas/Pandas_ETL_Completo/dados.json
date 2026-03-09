@@ -1,0 +1,30 @@
+{
+    "pessoas": [
+      {
+        "nome": "João",
+        "idade": "25",
+        "endereco": {
+          "rua": "Rua A",
+          "numero": 123,
+          "cidade": "São Paulo"
+        },
+        "telefones": [
+          "11 1111-1111",
+          "11 2222-2222"
+        ]
+      },
+      {
+        "nome": "Maria",
+        "idade": 30,
+        "endereco": {
+          "rua": "",
+          "numero": 456,
+          "cidade": "Rio de Janeiro"
+        },
+        "telefones": [
+          "21 3333-3333"
+        ]
+      }
+    ]
+  }
+  
